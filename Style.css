@@ -1,0 +1,118 @@
+body{
+    background-color:rgba(255, 192, 203, 0.378) ;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.box1{
+    height: 500px;
+    width: 550px;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 0px 10px 3px black;
+}
+.box2{
+    height: 500px;
+    width: 550px;
+    background-color: rgb(235, 84, 109);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 10px 3px black;
+}
+
+.login{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 80px ;
+}
+.logo1{
+    margin-left: 235px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.text{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.email{
+   margin-left: 190px;
+}
+
+.password{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+.info{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    margin-top: 180px;
+    padding: 0px 100px 00px;
+}
+
+.info2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 1px;
+    padding: 0px 100px 00px;
+}
+
+.email{
+    height: 40px;
+    width: 350px;
+    color: rgb(96, 85, 85);
+    background-color: rgba(213, 208, 208, 0.892);
+    margin-left: 100px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.password1{
+    height: 40px;
+    width: 350px;
+    color: rgb(96, 85, 85);
+    background-color: rgba(213, 208, 208, 0.892);
+    margin-left: 100px;
+    margin-top: 20px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.login1{
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: rgba(242, 84, 10, 0.892);
+    margin-left: 225px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    border-radius: 10px;
+}
